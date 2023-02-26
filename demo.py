@@ -90,50 +90,55 @@ def my_fubc(**args):
 # }
 # print(phones)
 
-animals_dict = {
-    "kot": "cat",
-    "pies": "dog",
-    "chomik": "hamster"
-}
+# animals_dict = {
+#     "kot": "cat",
+#     "pies": "dog",
+#     "chomik": "hamster"
+# }
+#
+# print(animals_dict["kot"])
+# print(animals_dict.get("kot"))
+# print(animals_dict.get("krowa"))
+# print(animals_dict.get("krowa", "Nie ma klucza"))
+# #print(animals_dict["krowa"])
+#
+# words = ["kot", "lew", "chomik"]
+# # for word in words:
+# #     if word in animals_dict:
+# #         print(word, "->", animals_dict[word])
+# #     else:
+# #         print("Nie znleziono slowa", word, "w słowniku.")
+#
+# #To jest tozsame:
+# for key in animals_dict.keys():
+#     print(key, "->", animals_dict[key])
+#
+# #do tego
+# for key in animals_dict:
+#     print(key, "->", animals_dict[key])
+#
+# for i in animals_dict.items():
+#     print(i)
+#
+# for pl, en in animals_dict.items():
+#     print(pl, "->", en)
+#
+#
+# animals_dict["świnka"] = "pig"
+# animals_dict.update({"lis": "fox"})
+# animals_dict.update({"świnka": "piggy"})
+#
+# animals_dict2 = animals_dict.copy()
+#
+# del animals_dict2["świnka"]
+# animals_dict2.popitem()
+#
+# print(animals_dict2)
+#
+# animals_dict2.clear()
+# print(animals_dict2)
 
-print(animals_dict["kot"])
-print(animals_dict.get("kot"))
-print(animals_dict.get("krowa"))
-print(animals_dict.get("krowa", "Nie ma klucza"))
-#print(animals_dict["krowa"])
-
-words = ["kot", "lew", "chomik"]
-# for word in words:
-#     if word in animals_dict:
-#         print(word, "->", animals_dict[word])
-#     else:
-#         print("Nie znleziono slowa", word, "w słowniku.")
-
-#To jest tozsame:
-for key in animals_dict.keys():
-    print(key, "->", animals_dict[key])
-
-#do tego
-for key in animals_dict:
-    print(key, "->", animals_dict[key])
-
-for i in animals_dict.items():
-    print(i)
-
-for pl, en in animals_dict.items():
-    print(pl, "->", en)
-
-
-animals_dict["świnka"] = "pig"
-animals_dict.update({"lis": "fox"})
-animals_dict.update({"świnka": "piggy"})
-
-animals_dict2 = animals_dict.copy()
-
-del animals_dict2["świnka"]
-animals_dict2.popitem()
-
-print(animals_dict2)
-
-animals_dict2.clear()
-print(animals_dict2)
+try:
+    print(1/0)
+except:
+    print("Ups!")
