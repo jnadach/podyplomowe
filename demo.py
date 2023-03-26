@@ -138,7 +138,7 @@ def my_fubc(**args):
 # animals_dict2.clear()
 # print(animals_dict2)
 
-try:
-    print(1/0)
-except:
-    print("Ups!")
+# try:
+#     print(1/0)
+# except:
+#     print("Ups!")

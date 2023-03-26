@@ -1,0 +1,1 @@
+print("To jest inicializacja podpakietu")

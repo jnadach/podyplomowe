@@ -1,3 +1,5 @@
+print("Inicjalizuję moduł mod3")
+
 def fun():
     print("#"*12)
     print("Funkcja: fun")
