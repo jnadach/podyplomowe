@@ -13,3 +13,4 @@ def count_duplicates(input):
 
 
 print(count_duplicates("abracadabra"))
+
